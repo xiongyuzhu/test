@@ -1,0 +1,4 @@
+<select id="findByUsername" paraterType="java.lang.String" resultMap="UserResultMap">
+    <![CDATA[
+    select*from springcloud_user where username=#{username}]]>
+</select>
